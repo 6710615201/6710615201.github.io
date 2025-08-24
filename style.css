@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #e0f7fa, #e8f5e9);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #0d47a1;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #1565c0;
+    border-bottom: 2px solid #90caf9;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+.intro {
+    font-size: 18px;
+    margin: 20px auto;
+    width: 75%;
+    line-height: 1.7;
+    background: #ffffffcc;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 8px 0;
+    padding: 8px;
+    background: #f1f8ff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    transition: background 0.3s ease;
+}
+
+ul li:hover {
+    background: #bbdefb;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    border: 1px solid #90caf9;
+    padding: 12px;
+    font-size: 16px;
+}
+
+th {
+    background-color: #42a5f5;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e3f2fd;
+}
+
+a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1e88e5;
+    text-decoration: underline;
+}
